@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan</title>
+</head>
+<body bgcolor="#3498db">
+    <table cellpadding ="50">
+        <tr>
+            <td><img src="Nasi.jpg" width="150px" height="150px"> </td>
+            <td><b><u><a href="web/web.html">HOME</a></u></b></td>
+            <td><b><u><a href="web/web.html#paketan">PAKETAN</a></u></b></td>
+            <td><b><u><a href="web/web.html#Kontak">KONTAK</a></u></b></td>
+            <td><b><u><a href="web/web.html#Pesan">PESAN KUY</a></u></b></td>
+        </tr>
+    </table>
+    <form action="#" method="POST"></form>
+        <div class="container">
+            <h1>PESAN KUY</h1>
+            <p>Transfer Ke Nomor Rekening BCA 7584125698</p>
+            <hr>
+            <label for="Nama"><b>Nama :</b></label>
+            <input type="text" name="Nama" id="Nama" placeholder="Masukan Nama Anda" required> <br><br>
+            <label for="Jumlah"><b>Jumlah Pesanan :</b></label>
+            <input type="jumlah" name="jumlah" id="jumlah" placeholder="Berapa banyak" required><br><br>
+            <label for="Nomor WhatsApp"><b>Nomor WhatsApp :</b></label>
+            <input type="gender" name="Nomor WhatsApp" id="Nomor WhatsApp" placeholder="Masukan Nomor Whatsapp" required><br><br>
+            <label for="gender"><b>Jenis Pengiriman</b></label><br>
+            <div id="gender">
+                <input type="radio" name="ya" id="ya" value="ya">
+                <label for="ya">Gojek</label>
+                <input type="radio" name="ya" id="ya" value="ya">
+                <label for="ya">Grab</label>
+            </div><br>
+            <label for="Pesanan"><b>Mau Paket Yang Mana?</b></label>
+            <div id="Pesanan">
+                <input type="checkbox" name="pesan" id="pesan" value="pesan">
+                <label for="pesan">Nasi Goreng</label>
+                <input type="checkbox" name="pesan" id="pesan" value="pesan">
+                <label for="pesan">Nasi Goreng Ayam</label>
+                <input type="checkbox" name="pesan" id="pesan" value="pesan">
+                <label for="pesan">Nasi Goreng Telur</label>
+            </div>
+            <br>
+            <br>
+            <label for="Tipe"><b>Pilih Tipe Telur</b></label>
+            <select name="Tipe" id="Tipe">
+                <option value="Dadar">Di Dadar</option>
+                <option value="Ceplok">Di Ceplok</option>
+            </select>
+            <br><br>
+            <label for="Alamat"><b>Tulisakan Alamat lengkap</b></label><br>
+            <textarea name="Alamat" id="Alamat" cols="100" rows="10" required></textarea><br><br>
+            <label for="Bukti Transfer"><b>Masukan Bukti Transfer</b></label>
+            <input type="file" name="Bukti Transfer" id="Bukti Transfer" required><br>
+            <button type="submit" class="register">submit</button>
+            <br><br>
+        </div>
+</body>
+</html>
